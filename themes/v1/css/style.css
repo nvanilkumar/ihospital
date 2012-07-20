@@ -1,0 +1,783 @@
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333;
+	font-style:normal;
+}
+
+*{margin:0; padding:0;}
+
+.main{
+	width:1022px;
+	height:auto;
+	margin:0 auto;
+}
+.header{
+	width:1022px;
+	height:137px;
+}
+.topheader{
+	width:1022px;
+	height:100px;
+}
+.logo{
+	width:285px;
+	height:80px;
+	float:left;
+	padding-top:20px;
+	overflow:hidden;
+}
+.username{
+	width:205px;
+	height:86px;
+	float:right;
+}
+.username a{
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+.navigation{
+	width:1022px;
+	height:28px;
+	border-bottom:1px #333333 solid;
+}
+.navigation ul{
+	float:right;
+}
+.navigation li{
+	list-style:none;
+	float:left;
+	position:relative;
+	width:100px;
+	text-align:center;
+	height:28px;
+	background-color:#003366;
+	color:#fff;
+	line-height:28px;
+}
+.navigation li a{
+	width:100px;
+	text-align:center;
+	height:28px;
+	background-color:#003366;
+	color:#fff;
+	line-height:28px;
+	text-decoration:none;
+}
+.mainwrap{
+	width:1022px;
+	height:auto;
+	margin:0;
+	padding:0;
+
+	position:relative;
+}
+.leftpan{
+	width:180px;
+	height:900px;
+	float:left;
+	position:relative;
+}
+.leftpan li{
+	height:20px;
+	list-style:none;
+	width:170px;
+	padding-left:10px;
+	
+
+}
+.leftpan li.logout a{
+	background-color:#ff9900;
+	color:#FFF; 
+	font-weight:900;
+	height:22px;
+	padding-top:8px;
+	width:100%;
+	display:block;
+}
+.leftpan li a{
+	text-decoration:none;
+	color:#333;
+	font-family:"Georgia";
+}
+.leftpan li a:hover{
+	text-decoration:none;
+	color:#03C;
+}
+.leftpan h3{
+	border-bottom:1px #003366 solid;
+	height:20px;
+	display:block;
+	padding-top:10px;
+	width:175px;
+	padding-left:5px;
+	color:#333333;
+	
+	
+}
+.leftpan h4{
+	background-color:#003366;
+	color:#fff;
+	height:22px;
+	padding-top:8px;
+	padding-left:5px;
+	font-weight:900;
+	margin-top:10px;
+	position:relative;
+}
+.leftpan h5 a{
+	background-color:#FF9900;
+	display:block;
+	color:#fff;
+	height:22px;
+	padding-top:8px;
+	padding-left:5px;
+	font-weight:900;
+	margin-top:10px;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:900px;
+}
+.midpan{
+	width:490px;
+	height:auto;
+	float:left;
+	margin-left:80px;
+}
+.midpan table{
+	width:490px;
+}
+.midpan table td{
+		color:#333;
+		font-weight:900;
+		height:40px;
+}
+.midpan table td p{
+		width:200px;
+		color:#333;
+		font-weight:900;
+		height:40px;
+}
+.midpan .snapshot{
+	background-color:#993366;
+	color:#fff;
+	font-size:28px;
+	width:480px;
+	padding-left:10px;
+}
+.midpan input.browse{
+	border:1px #999999 solid;
+	float:right;
+	text-align:left;
+	width:220px;
+	height:24px;
+}
+*.midpan input.browse{
+	float:right;
+	text-align:left;
+	width:220px;
+	height:24px;
+}
+	
+.rightpan{
+	width:225px;
+	height:auto;
+	float:right;
+}
+.footer{
+	width:1022px;
+	height:50px;
+	float:left;
+	border-top:1px #039 solid;
+}
+.footer p{
+	text-align:center;
+	line-height:26px;
+	color:#999999;
+}
+.footer p a{
+	text-decoration:none;
+	color:#999999;
+}
+.footer p a:hover{
+	text-decoration:underline;
+	color:#09F;
+}
+
+
+/*------------Overview--------------------*/
+.midpan p{
+	width:550px;
+	display:block;
+	height:auto;
+	margin:auto;
+	margin-top:15px;
+}
+.midpan p span.dummytext{
+	display:block;
+	width:250px;
+	background-color:#096;
+	margin-left:180px;
+}
+.midpan p label{
+	width:150px;
+	height:30px;
+	display:block;
+	float:left;
+	margin-left:23px;
+}
+.midpan p div{
+	float:right;
+}
+.midpan p input{
+	width:250px;
+	height:30px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px #003366 solid;
+	background-color:#F4F4F4;
+	margin-left:10px;
+}
+.midpan p select{
+	width:40px;
+	height:30px;
+	margin-left:10px;
+}
+.midpan p.overview label{
+	width:150px;
+	height:100px;
+}
+.midpan p.overview{
+	width:550px;
+	height:100px;
+}
+.midpan p.overview textarea{
+	width:250px;
+	height:100px;
+	margin-left:10px;
+}
+.midpan p.facilities label{
+	width:150px;
+	height:100px;
+}
+.midpan p.facilities textarea{
+	width:250px;
+	height:100px;
+	margin-left:10px;
+}
+.midpan p.facilities{
+	width:550px;
+	height:100px;
+}
+.midpan p.Achievements label{
+	width:150px;
+	height:100px;
+}
+.midpan p.Achievements{
+	width:550px;
+	height:100px;
+}
+.midpan p.Achievements textarea{
+	width:250px;
+	height:100px;
+	margin-left:10px;
+}
+.midpan p.name1 input{
+	width:200px;
+	height:30px;
+}
+
+.midpan p.button02 span input{
+	width:120px;
+	height:28px;
+	cursor:pointer;
+}
+.midpan p span inputsubmit021{
+	height:28px;
+	background-color:#ff9900;
+}
+.midpan p span inputcancel021{
+	height:28px;
+	background-color:#993366;
+}
+.midpan p.file{
+}
+/*------------Overview end--------------------*/
+
+/*------------AADDOCS--------------------*/
+
+.docsname p.nametitle{
+	width:122px;
+	height:40px;
+	margin:0px;
+	background-color:#003366;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+}
+.docsname{
+	width:122px;
+	height:auto;
+	float:left;
+	margin:0px;
+}
+.status{width:800px; height:auto;
+float:left;
+}
+.docsname p{
+	width:122px;
+	height:auto;
+	float:left;
+	margin:0px;
+	margin-top:2px;
+}
+.docsname p input{
+	width:120px;
+	height:20px;
+	float:left;
+	margin:0px;
+	border-radius:0px;
+}
+
+
+.Speciality p.nametitle{
+	width:122px;
+	height:40px;
+	margin:0px;
+	background-color:#003366;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+}
+.Speciality{
+	width:122px;
+	height:auto;
+	float:left;
+	margin:0px;
+}
+.Speciality p{
+	width:122px;
+	height:auto;
+	float:left;
+	margin:0px;
+	margin-top:2px;
+}
+.Speciality p input{
+	width:120px;
+	height:20px;
+	float:left;
+	margin:0px;
+	border-radius:0px;
+}
+
+.OPDTimings p.nametitle01{
+	width:180px;
+	height:40px;
+	margin:0px;
+	background-color:#003366;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	float:left
+}
+.OPDTimings{
+	width:180px;
+	height:auto;
+	float:left;
+	margin:0px;
+}
+.OPDTimings{
+	width:180px;
+	height:auto;
+	float:left;
+	margin:0px;
+}
+.OPDTimings p.opd {
+	width:180px;
+	height:60px;
+}
+.OPDTimings p.opd input{
+	width:30px;
+	height:20px;
+	border-radius:0px;
+	margin-right:2px !important;
+	margin:0px;
+	
+}
+.OPDTimings p.opd span.bottomtimedetails{
+	display:block;
+	float:right;
+	margin-top:5px;
+	margin-right:1px;
+}
+.OPDTimings p select{
+	width:39px;
+	height:22px;
+	background-image:url(../images/dmicon.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	  	-webkit-appearance:none;
+	-moz-appearance:none;
+	overflow: hidden;
+	margin:0px;
+}
+.OPDTimings p{
+	width:180px;
+	height:20px;
+	float:left;
+	margin:0px;
+	margin-top:2px;
+}
+
+.OPDTimings{
+	width:180px;
+	height:20px;
+	float:left;
+}
+.ContactDetails{
+	width:361px;
+	height:40px;
+	padding-left:15px;
+	float:left;
+	background-color:#003366;
+	color:#fff;
+	text-align:center;
+}
+
+.ContactDetails span.contact{
+	width:333px;
+	height:20px;
+	display:block;
+	border-bottom:#FFF 1px solid;
+
+}
+.ContactDetails span.phone{
+	width:213px;
+	float:left;
+	text-align:left;
+	display:block;
+	height:19px;
+}
+
+.ContactDetails span.email{
+	width:100px;
+	text-align:right;
+	display:block;
+	float:left;
+	height:20px;
+}
+.ContactDetails span.phone p.number{
+	width:213px;
+	height:20px;
+	float:left;
+	margin:0px;
+	margin-top:5px;
+	color:#003366;
+}
+.ContactDetails span.phone p.number span input{
+	width:23px;
+	height:20px;
+	margin:0px;
+	display:block;
+	float:left;
+	border-radius:0px;
+	text-align:center;
+	background-color:#CCCCCC;
+	border:none;
+}
+.ContactDetails span.phone p.number span.input04 input{
+	width:34px;
+	height:20px;
+	margin:0px;
+	display:block;
+	line-height:20px;
+}
+.ContactDetails span.phone p.number span.input04{
+	width:34px;
+	height:20px;
+	margin:0px;
+	display:block;
+	line-height:20px;
+	margin-left:2px;
+}
+
+.ContactDetails span.phone p.number span{
+	width:23px;
+	height:20px;
+	margin:0px;
+	display:block;
+	float:left;
+	margin-left:2px;
+
+}
+.ContactDetails span.phone p.number span.line{
+	width:60px;
+	height:20px;
+	margin:0px;
+	display:block;
+	line-height:20px;
+}
+.ContactDetails span.phone p.number span.icon{
+	width:20px;
+	height:20px;
+	margin:0px;
+	display:block;
+}
+.ContactDetails span.phone1{
+	width:100px;
+	float:left;
+	text-align:left;
+	display:block;
+	height:19px;
+	margin-left:20px;
+}
+.ContactDetails span.phone1 p{
+	width:100px;
+	float:left;
+	text-align:left;
+	display:block;
+	height:19px;
+	margin:0px;
+}
+.ContactDetails span.phone1 p input{
+	width:100px;
+	float:left;
+	text-align:left;
+	display:block;
+	height:19px;
+	margin:0px;
+	border-radius:0;
+	margin-top:5px;
+}
+.Viewperpage{
+	width:800px;
+	height:auto;
+	margin-top:100px;
+}
+.Viewperpage p.view10{
+	width:800px !important;
+	height:auto;
+	text-align:right;
+	margin-bottom:10px;
+}
+.Viewperpage p{width:120px !important; margin:0px; }
+.dname{
+	width:120px;
+	float:left;
+}
+.dname p{
+	width:120px;
+	height:40px;
+	background-color:#003366;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+}
+.dname p.drabc{
+	width:120px;
+	height:40px;
+	color:#003366;
+	text-align:center;
+	line-height:40px;
+	background-color:#fff;
+}
+.Speciality2{
+	width:150px;
+	height:auto;
+	float:left;
+	margin:0px;
+}
+.Speciality2 p.specilty001{
+	float:left;
+	display:block;
+	width:150px !important;
+	height:40px;
+	background-color:#003366;
+	color:#fff;
+	line-height:40px;
+	text-align:center;
+	}
+.Speciality2 p.general{
+	display:block;
+	width:150px !important;
+	height:40px;
+	float:left;
+	background-color:#fff;
+	color:#003366;
+	text-align:left;
+	}
+
+.Timings01{
+	width:150px;
+	float:left;
+}
+.Timings01 p{
+	display:block;
+	width:150px !important;
+	height:40px;
+	background-color:#003366;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+}
+.Timings01 p.mon{
+	display:block;
+	width:150px !important;
+	height:40px;
+	background-color:#fff;
+	color:#003366;
+
+	line-height:40px;
+}
+
+
+.cdetails{
+	width:380px;
+	height:auto;
+	float:left;
+}
+
+.cdetails p{
+	width:380px !important;
+	height:40px;
+	background-color:#003366;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+}
+.cdetails p.bottomcdtails{
+	width:380px;
+	height:40px;
+	border:none;
+	background-color:#fff;
+}
+
+.cdetails p.topdetails{
+	width:380px !important;
+	display:block;
+	height:19px;
+	color:#fff;
+	text-align:center;
+	line-height:19px;
+	border-bottom:1px #fff solid;
+}
+.cdetails p.pmeaddres{
+	width:380px !important;
+	display:block;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	line-height:21px;
+}
+.cdetails p span{
+	width:120px !important;
+	display:block;
+	float:left;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+}
+.cdetails p span.Mobile10{
+	width:120px !important;
+	display:block;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+	margin-left:10px;
+}
+.cdetails p span.Email10{
+	width:120px !important;
+	display:block;
+	float:right !important;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+}
+.cdetails span.phonenumber{
+	width:120px;
+	height:40px;
+	background-color:#fff;
+	color:#003366;
+	z-index:1000;
+	line-height:40px;
+	text-align:right;
+}
+.cdetails span.mobilenumber{
+	width:120px;
+	height:40px;
+	background-color:#fff;
+	color:#003366;
+	z-index:1000;
+	line-height:40px;
+	text-align:right;
+}
+.cdetails span.emailid{
+	width:120px;
+	height:40px;
+	background-color:#fff;
+	color:#003366;
+	z-index:1000;
+	line-height:40px;
+	text-align:right;
+}
+.pagination{
+	width:800px;
+	color:#003366;
+	background-color:#fff;
+	text-align:right;
+	margin-top:10px;
+}
+.docotoradd{
+	float:left;
+	width:800px;
+	height:auto;
+	position:relative;
+	background-color:#fff;
+	color:#003366;
+	border-bottom:1px #003366 solid;
+	margin:10px 0px 20px;
+}
+.button02{
+	width:800px;
+	float:left;
+	margin-top:50px;
+	
+}
+.button02 input{
+	width:100px;
+	height:25px;
+	border:none;
+	color:#fff;
+	background-color:#ff9900;
+	float:right;
+	cursor:pointer;
+	margin-right:5px;
+	
+}
+.button03{
+	width:800px;
+	float:left;
+	margin-top:20px;
+	
+}
+.button03 input{
+	width:100px;
+	height:25px;
+	border:none;
+	color:#fff;
+	background-color:#ff9900;
+	float:right;
+	cursor:pointer;
+	margin-right:5px;
+	
+}
+/*------------AADDOCS--------------------*/

@@ -1,0 +1,57 @@
+// JavaScript Document
+$(document).ready(function() {
+$("#formElem").validate({
+		
+ 
+		rules: {
+			
+			established : {
+				required: true,
+				 			      		  
+    		},
+		mname: {
+				required: true,
+				 			      		  
+    		},
+		mdesignation: {
+				required: true,
+				 			      		  
+    		},
+
+   			  
+		},
+		
+		
+		
+		messages: {
+			
+			established:{
+				required: "please select the established date",
+				 
+			},
+			mname: { 
+      			 required: "please enter the management name",
+     			},
+			mdesignation: {
+             required: "please enter the designation ",
+			                
+          } 
+			 
+		}	,
+		errorPlacement: function(error, element) {
+			if ( element.is(":radio") )
+				error.appendTo( element.parent().next().next() );
+			else if ( element.is(":checkbox") )
+				error.appendTo ( element.next() );
+			else
+			{
+				error.appendTo( element.next() );
+			}
+		}, 
+		
+			
+	});//form validation
+	
+	
+ 	});//document
+ 

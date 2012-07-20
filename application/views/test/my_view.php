@@ -1,0 +1,1 @@
+i am from structured view file.
